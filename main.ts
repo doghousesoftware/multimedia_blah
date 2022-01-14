@@ -8,13 +8,13 @@ function lights (num: number) {
     } else if (num == 3) {
         pins.digitalWritePin(DigitalPin.P3, 1)
     } else if (num == 4) {
-        pins.digitalWritePin(DigitalPin.P4, 1)
+        pins.digitalWritePin(DigitalPin.P13, 1)
     } else if (num == 5) {
-        pins.digitalWritePin(DigitalPin.P5, 1)
+        pins.digitalWritePin(DigitalPin.P14, 1)
     } else if (num == 6) {
-        pins.digitalWritePin(DigitalPin.P6, 1)
+        pins.digitalWritePin(DigitalPin.P15, 1)
     } else if (num == 7) {
-        pins.digitalWritePin(DigitalPin.P7, 1)
+        pins.digitalWritePin(DigitalPin.P16, 1)
     }
 }
 input.onButtonPressed(Button.A, function () {
@@ -29,13 +29,13 @@ function off (num: number) {
     } else if (num == 3) {
         pins.digitalWritePin(DigitalPin.P3, 0)
     } else if (num == 4) {
-        pins.digitalWritePin(DigitalPin.P4, 0)
+        pins.digitalWritePin(DigitalPin.P13, 0)
     } else if (num == 5) {
-        pins.digitalWritePin(DigitalPin.P5, 0)
+        pins.digitalWritePin(DigitalPin.P14, 0)
     } else if (num == 6) {
-        pins.digitalWritePin(DigitalPin.P6, 0)
+        pins.digitalWritePin(DigitalPin.P15, 0)
     } else if (num == 7) {
-        pins.digitalWritePin(DigitalPin.P7, 0)
+        pins.digitalWritePin(DigitalPin.P16, 0)
     }
 }
 input.onButtonPressed(Button.B, function () {
